@@ -13,7 +13,7 @@ public class OI {
 
     private OI() {
         driver = new XboxGamepad(DRIVER_ID);
-        initBindings();
+        // initBindings();
     }
 
     public XboxGamepad getDriver(){

@@ -13,15 +13,15 @@ public class Elevator extends SubsystemBase {
     private VictorSPX follower2;
     private VictorSPX follower3;
 
-    private static final int MASTER_ID = 0;
-    private static final int FOLLOWER1_ID = 0;
-    private static final int FOLLOWER2_ID = 0;
-    private static final int FOLLOWER3_ID = 0;
-
-    private static final boolean MASTER_INVERT = false;
-    private static final boolean FOLLOWER1_INVERT = false;
-    private static final boolean FOLLOWER2_INVERT = false;
-    private static final boolean FOLLOWER3_INVERT = false;
+    private static final int MASTER_ID = 2;
+    private static final int FOLLOWER1_ID = 6;
+    private static final int FOLLOWER2_ID = 3;
+    private static final int FOLLOWER3_ID = 5;
+    
+    private static final boolean MASTER_INVERT = true;
+    private static final boolean FOLLOWER1_INVERT = true;
+    private static final boolean FOLLOWER2_INVERT = true;
+    private static final boolean FOLLOWER3_INVERT = true;
 
     public Elevator () {
         master = new HSTalon(MASTER_ID);
